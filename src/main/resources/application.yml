@@ -1,0 +1,14 @@
+server:
+  port: 9002
+  servlet:
+    context-path: /marvel
+spring:
+  freemarker:
+      cache: false
+      charset: UTF-8
+      suffix: .html
+      expose-request-attributes: true
+      expose-session-attributes: true
+      request-context-attribute: request
+      settings:
+        number_format: "#"
